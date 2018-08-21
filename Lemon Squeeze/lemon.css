@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  margin: 0;
+}
+.topcol {
+  display: flex;
+  width: 100%;
+}
+
+.columnleft, .title, .columnright {
+  float: left;
+  text-align: center;
+}
+
+.columnleft {
+  margin: 0% 2% 2% 0;
+}
+
+.columnright {
+  margin: 0% 0 2% 2%;
+}
+
+.columnleft, .columnright {
+  background-color: #9EB364;
+  width: 25%;
+}
+
+.columnleft h2, .columnright h2 {
+  position: relative;
+  font-size: 1.8em;
+  font-family: Josefin Slab;
+  font-weight: lighter;
+  color: white;
+  top: 2%;
+  padding: 20%;
+  /* border: 10px solid white;
+  border-left: none;
+  border-right: none; */
+}
+
+.title {
+  width: 50%;
+  margin: 3% 3% 3% 3%;
+  color: #9EB364;
+  text-align: center;
+  cursor: pointer;
+  border: 10px solid #9EB364;
+  transition: 0.1s ease-in-out;
+}
+
+.title:hover {
+  color: #fff;
+  background-color: #9EB364;
+}
+
+.navigation {
+  text-align: center;
+  list-style-type: none;
+  padding: 1.2%;
+  overflow: hidden;
+  color: white;
+  background-color: #9EB364;
+  margin: 0;
+}
+
+.item {
+  display: inline;
+  padding: 2%;
+  font-size: 1.5em;
+  font-family: Josefin Slab;
+  transition: .1s ease-in-out;
+  cursor: pointer;
+}
+navigation, .item:hover {
+  background-color: white;
+  color: #9EB364;;
+}
+
+.banner {
+  background: url("img/header2crop.jpg") no-repeat center center;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+}
+
+p {
+  font-family: Comfortaa;
+  font-size: 15px;
+}
+h1 {
+  font-size: 4.5em;
+  font-family: Lobster;
+}
+h2 {
+  font-family: Lobster;
+  text-align: center;
+}
+
+.about {
+  margin: auto;
+  text-align: center;
+  font-family: Josefin Slab;
+  font-size: 1.1em;
+}
+.about-section {
+  background-color: #9EB364;
+  height: 35vh;
+  font-size: 1.5em;
+  color: #fff;
+  padding: 1% 2%;
+  margin: 0% 0% 3% 0%;
+}
+
+.about-section h2 {
+  font-size: 2em;
+  margin-bottom: 2%;
+  font-family: Lobster;
+  font-weight: lighter;
+}
+
+.about-section hr {
+  width: 30%;
+  background-color: #fff;
+  border: 0 none;
+  color: #fff;
+  height: 5px;
+  margin-bottom: 2%;
+}
+
+.findone {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.findone h2 {
+  color: #9EB364;
+  font-size: 3em;
+  font-family: Josefin Slab;
+  font-weight: lighter;
+}
+
+.columnmiddle2 {
+  width: 10%;
+}
+
+.columnleft2, .columnright2 {
+  float: left;
+  width: 45%;
+}
+
+.columnleft2 {
+  padding-left: 20%;
+}
+
+.columnright2 {
+  padding-right: 20%;
+}
+
+
+form.search input {
+    padding: 3%;
+    font-size: 1.5em;
+    font-family: Josefin Slab;
+    border: none;
+    border-bottom: 3px solid #9EB364;
+    float: left;
+    width: 80%;
+}
+
+form.search input:focus {
+  outline: none;
+  color: #9EB364;
+}
+
+form.search button {
+  width: 10%;
+  padding: 10px;
+  background: #fff;
+  color: #9EB364;
+  font-size: 1em;
+  border: 2px solid #fff;
+  border-left: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+form.search button:hover {
+    background: #fff;
+    color: #527432;
+    transition: 0.2s;
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+form.search input, button {
+  margin: 2%;
+}
+
+form.search input {
+  margin-right: 0;
+}
+
+form.search button {
+  margin-left: 0;
+}
+
+.instabar {
+  height: 15vh;
+  background-color: #9EB364;
+  margin: 0% 0% 5% 0%;
+}
+
+.instabar h2 {
+  position: relative;
+  font-size: 3em;
+  font-family: Lobster;
+  font-weight: lighter;
+  color: white;
+  top: 25%;
+}
+
+.instapics {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  margin: 0% 0% 5% 0%;
+  text-align: center;
+}
+
+.columnemptyleft3, .columnemptyright3 {
+  width: 10%;
+}
+
+.columnleft3, .columnmiddle3, .columnright3 {
+  float: left;
+  cursor: pointer;
+}
+
+
+.columnleft3 {
+  background: url("img/instapic1.jpg");
+  background-size: cover;
+  width: 25%;
+  margin-right: 2.5%;
+  opacity: 1;
+}
+
+.columnmiddle3 {
+  background: url("img/instapic2.jpg");
+  background-size: cover;
+  width: 25%;
+}
+
+.columnright3 {
+  background: url("img/instapic3.jpg");
+  background-size: cover;
+  width: 25%;
+  margin-left: 2.5%;
+}
+
+
+
+.caption {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  line-height: 150%;
+  font-family: Josefin Slab;
+  padding: 2% 0;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  transition: .1s ease-in-out;
+}
+
+.columnleft3:hover .caption {
+  visibility: visible;
+  opacity: 1;
+}
+
+.columnmiddle3:hover .caption {
+  visibility: visible;
+  opacity: 1;
+}
+
+.columnright3:hover .caption {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: #9EB364;
+  background-size: cover;
+  height: 12vh;
+
+}
+.bottom-nav {
+  text-align: center;
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+.item-2 {
+  display: inline;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 20px;
+  font-family: Josefin Slab;
+  transition: ease-in-out .1s;
+}
+
+bottom-nav, .item-2:hover {
+  background-color: white;
+  color: #9EB364;
+  transition: 0.1s;
+}
+.copyright {
+  font-family: Josefin Slab;
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  color: white;
+
+}
